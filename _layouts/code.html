@@ -4,6 +4,35 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+			* {
+			    box-sizing: border-box;
+			}
+
+			/* Create two unequal columns that floats next to each other */
+			.column {
+			    float: left;
+			    padding: 10px;
+			    height: 300px; /* Should be removed. Only for demonstration */
+			}
+
+			.left {
+			  width: 66%;
+			}
+
+			.right {
+			  width: 34%;
+			}
+			/* Add Sticky Image */
+			img.sticky {
+			    position: -webkit-sticky;
+			    position: sticky;
+			    top: 0;
+			    width: 200px;
+			}
+			</style
 			
 		</head>
 		<body>
